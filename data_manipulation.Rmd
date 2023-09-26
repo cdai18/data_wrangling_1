@@ -2,9 +2,25 @@
 title: "Data manipulation"
 author: "Christina Dai"
 output: github_document
+editor_options: 
+  chunk_output_type: console
 ---
 
-```{r}
+```{r setup}
 library(tidyverse)
-
 ```
+
+## Load FAS litters data
+
+```{r}
+litters_df = read_csv("FAS_litters.csv")
+litters_df = janitor::clean_names(litters_df)
+```
+
+
+
+
+
+
+
+
