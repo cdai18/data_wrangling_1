@@ -1,0 +1,17 @@
+---
+title: "Tidy data"
+author: "Christina Dai"
+output: github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup}
+library(tidyverse)
+```
+
+
+
+
+
+
